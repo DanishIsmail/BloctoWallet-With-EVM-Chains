@@ -5,7 +5,7 @@ const bloctoSDK = new BloctoSDK({
     // (required) chainId to be used
     chainId: "0x1",
     // (required) JSON RPC endpoint
-    rpc: "https://eth-mainnet.g.alchemy.com/v2/b99BcR5f0XMTh6NlN2ktVIm3UcJOKS2x",
+    rpc: process.env.RPC_URL,
   },
 
   // (optional) Blocto app ID
